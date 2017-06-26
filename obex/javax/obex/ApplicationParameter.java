@@ -55,6 +55,8 @@ public final class ApplicationParameter {
 
         public static final byte LISTSTARTOFFSET_TAGID = 0x05;
 
+	public static final byte FILTER_TAGID = 0x06;
+
         public static final byte PROPERTY_SELECTOR_TAGID = 0x06;
 
         public static final byte FORMAT_TAGID = 0x07;
@@ -112,6 +114,8 @@ public final class ApplicationParameter {
         public static final byte MAXLISTCOUNT_LENGTH = 2;
 
         public static final byte LISTSTARTOFFSET_LENGTH = 2;
+	
+	public static final byte FILTER_LENGTH = 8;
 
         public static final byte PROPERTY_SELECTOR_LENGTH = 8;
 
