@@ -63,6 +63,7 @@
   <!-- NavBar Tuner -->
   <string name="menu_ime_always_show">Menu / Ndryshimi i Tastjerës (trego gjithmonë)</string>
   <string name="search">Kërko</string>
+  <!-- Name of the clock status bar icon -->
   <!-- Path data for portrait battery -->
   <!-- Path data for landscape battery -->
   <!-- Path data for circle battery -->
@@ -161,4 +162,5 @@
   <!-- Content description for Accessibility on unlocked tasks in recents -->
   <!-- Content description for Accessibility on locked tasks in recents -->
   <!-- LiveDisplay strings -->
+  <string name="live_display_auto">Automatike</string>
 </resources>

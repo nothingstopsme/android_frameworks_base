@@ -36,6 +36,7 @@
   <!-- Button to restart the phone into download, within the Restart Options dialog -->
   <string name="reboot_download">Download</string>
   <!-- Button to soft restart the device, within the Restart Options dialog -->
+  <string name="reboot_soft">Mjuk omstart</string>
   <!-- Title of dialog to confirm restarting. -->
   <string name="reboot_title">Starta om</string>
   <!-- Restart Confirmation Dialog.  When the user chooses to restart the device, there will
@@ -139,4 +140,7 @@
   <string name="tethered_notification_no_device_message">Ingen ansluten enhet</string>
   <string name="tethered_notification_one_device_message"><xliff:g id="count">%1$s</xliff:g> ansluten enhet</string>
   <string name="tethered_notification_multi_device_message"><xliff:g id="count">%1$s</xliff:g> anslutna enheter</string>
+  <!-- Zen mode buttons -->
+  <string name="silent_mode_priority">Prioritet</string>
+  <string name="silent_mode_none">Ingen</string>
 </resources>

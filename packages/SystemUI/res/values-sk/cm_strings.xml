@@ -92,6 +92,8 @@
   <!-- NavBar Tuner -->
   <string name="menu_ime_always_show">Menu / Prepínač klávesnice (vždy zobrazovať)</string>
   <string name="search">Vyhľadať</string>
+  <!-- Name of the clock status bar icon -->
+  <string name="status_bar_clock">Hodiny</string>
   <!-- Path data for portrait battery -->
   <!-- Path data for landscape battery -->
   <!-- Path data for circle battery -->
@@ -99,6 +101,7 @@
   <plurals name="wifi_hotspot_connected_clients_label">
     <item quantity="one">%1$d klient</item>
     <item quantity="few">%1$d klienti</item>
+    <item quantity="many">%1$d klientov</item>
     <item quantity="other">%1$d klientov</item>
   </plurals>
   <!-- Weather string format in expanded statusbar header -->

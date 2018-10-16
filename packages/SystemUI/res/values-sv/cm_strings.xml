@@ -60,6 +60,7 @@
   <string name="accessibility_dpad_right">Markör till höger</string>
   <!-- NavBar Tuner -->
   <string name="search">Sök</string>
+  <!-- Name of the clock status bar icon -->
   <!-- Path data for portrait battery -->
   <!-- Path data for landscape battery -->
   <!-- Path data for circle battery -->
@@ -107,12 +108,14 @@
   <string name="accessibility_quick_settings_location_high_accuracy">Platsrapportering: högt precisionsläge.</string>
   <!-- QuickSettings: Location (On, low-power) [CHAR LIMIT=NONE] -->
   <string name="quick_settings_location_battery_saving_label">Batterisparläge</string>
+  <string name="quick_settings_location_battery_saving_label_twoline">Batteri-\nsparläge</string>
   <!-- QuickSettings: Location (On, gps-only) [CHAR LIMIT=NONE] -->
   <string name="quick_settings_location_gps_only_label">Endast enhet</string>
   <!-- QuickSettings: Location (On, high-accuracy) [CHAR LIMIT=NONE] -->
   <string name="quick_settings_location_high_accuracy_label">Hög noggrannhet</string>
+  <string name="quick_settings_location_high_accuracy_label_twoline">Hög\nnoggrannhet</string>
   <!-- QuickSettings: Location detail panel title [CHAR LIMIT=NONE] -->
-  <string name="quick_settings_location_detail_title">Plats</string>
+  <string name="quick_settings_location_detail_title">Position</string>
   <!-- QuickSettings: Location detail panel menu title [CHAR LIMIT=NONE] -->
   <string name="quick_settings_location_detail_menu_title">Välj läge:</string>
   <!-- [CHAR LIMIT=30] Location detail panel, high accuracy location mode -->
@@ -134,6 +137,8 @@
   <string name="accessibility_quick_settings_ambient_display_changed_on">Ambient display påslagen.</string>
   <!-- Caffeine -->
   <string name="quick_settings_caffeine_label">Koffein</string>
+  <string name="accessibility_quick_settings_caffeine_off">Koffein av</string>
+  <string name="accessibility_quick_settings_caffeine_on">Koffein på</string>
   <!-- Heads up QS tile -->
   <string name="quick_settings_heads_up_label">Heads up</string>
   <string name="accessibility_quick_settings_heads_up_off">Heads up av.</string>
@@ -154,4 +159,13 @@
   <!-- Content description for Accessibility on unlocked tasks in recents -->
   <!-- Content description for Accessibility on locked tasks in recents -->
   <!-- LiveDisplay strings -->
+  <string name="live_display_auto">Automatisk</string>
+  <string name="live_display_off">Av</string>
+  <string name="live_display_day">Dag</string>
+  <string name="live_display_day_summary">Använd enbart dagläge</string>
+  <string name="live_display_night">Natt</string>
+  <string name="live_display_night_summary">Använd enbart nattläge</string>
+  <string name="live_display_outdoor">Utomhus (stark sol)</string>
+  <string name="live_display_outdoor_summary">Använd endast utomhusläge</string>
+  <string name="accessibility_quick_settings_live_display_off">LiveDisplay av.</string>
 </resources>
