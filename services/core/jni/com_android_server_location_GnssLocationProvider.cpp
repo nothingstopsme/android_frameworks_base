@@ -266,8 +266,9 @@ static pthread_t create_thread_callback(const char* name, void (*start)(void *),
     return (pthread_t)AndroidRuntime::createJavaThread(name, start, arg);
 }
 
+//Hack for gps.sc8830.so: making GpsCallbacks compatible with the order definition by setting a smaller size to ignore the last two function pointers
 GpsCallbacks sGpsCallbacks = {
-    sizeof(GpsCallbacks),
+    sizeof(GpsCallbacks) - sizeof(void*)*2,
     location_callback,
     status_callback,
     sv_status_callback,
@@ -277,7 +278,8 @@ GpsCallbacks sGpsCallbacks = {
     release_wakelock_callback,
     create_thread_callback,
     request_utc_time_callback,
-    set_system_info_callback,
+    
+		set_system_info_callback,
     gnss_sv_status_callback,
 };
 

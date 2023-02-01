@@ -185,7 +185,12 @@ static jint nativeGetFeature(JNIEnv *env, jclass clazz, jint featureId) {
     int value = -1;
 
     if (gPowerModule && gPowerModule->getFeature) {
-        value = gPowerModule->getFeature(gPowerModule, (feature_t)featureId);
+				/*
+					it seems like the field "getFeature" can be initialised with 0xffffffff (on a 32-bit device),
+					so adding this check to prevent segmentation faults
+				*/
+				if(reinterpret_cast<char*>(gPowerModule->getFeature) != (reinterpret_cast<char*>(NULL)-1)) 
+					value = gPowerModule->getFeature(gPowerModule, (feature_t)featureId);
     }
 
     return (jint)value;
